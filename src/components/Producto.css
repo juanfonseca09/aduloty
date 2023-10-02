@@ -1,0 +1,16 @@
+.producto .btn-custom {
+    
+    color: #fff; /* Color del texto */
+    background-color: rgb(252,146,209); /* Color de fondo personalizado */
+    border-color: rgb(252,146,209); /* Color del borde */
+  }
+  
+  .producto .btn-custom:hover {
+    color: #fff;
+    background-color: rgb(227, 109, 178); /* Cambia el color de fondo al pasar el ratón */
+    border-color: rgb(227, 109, 178); /* Cambia el color del borde al pasar el ratón */
+  }
+
+  .producto a{
+    text-decoration: none;
+  }
