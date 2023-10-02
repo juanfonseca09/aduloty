@@ -161,3 +161,6 @@
    text-decoration: none;
 }
 
+.nombre p{
+  font-size: 0.8rem!important;
+}

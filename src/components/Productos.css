@@ -30,4 +30,6 @@
     border-color: rgb(227, 109, 178); /* Cambia el color del borde al pasar el ratón */
   }
 
-  
+  .nombre p{
+    font-size: 0.8rem!important;
+  }
