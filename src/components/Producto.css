@@ -14,3 +14,25 @@
   .producto a{
     text-decoration: none;
   }
+
+  .otros h2 {
+    color: rgb(227, 109, 178)
+  }
+
+  .img-wrapper{
+    overflow:hidden;
+  }
+
+  .img-pr {
+    border-radius: 3px;
+  }
+  
+  .otros .img-container{
+    margin-left: 3vh;
+    margin-right: 3vh;
+    border-radius: 2px;
+  }
+
+  .form-control-color {
+    margin-right: 2vh;
+  }

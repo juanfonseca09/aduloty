@@ -5,6 +5,6 @@
 }
 
 .bkgr {
-    background-image: url('./fondo.png');
+    background-image: url('./fondo.png')!important;
     background-size: cover;
 }

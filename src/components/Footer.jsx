@@ -11,12 +11,7 @@ export const Footer = () => {
     <MDBFooter className='text-center footer'>
       <MDBContainer className='p-3'>
         <section className='social-ntwk m-2'>
-        <button
-  className='m-3 social'
-  onClick={() => window.open('', '_blank')}
->
-  <FaFacebook size={25} />
-</button>
+        
 
 <button
   className='m-3 social'

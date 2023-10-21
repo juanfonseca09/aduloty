@@ -1,7 +1,6 @@
 import './App.css'
 import { HeaderNav } from './components/HeaderNav'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import ScrollToTop from 'react-scroll-to-top'
 import { Footer } from './components/Footer'
 import { MyRoutes } from './router/MyRoutes';
 import { BrowserRouter as Router } from "react-router-dom";
@@ -22,11 +21,11 @@ function App() {
         notification
         notificationSound
       />
-      <ScrollToTop smooth color='rgb(146, 38, 51)' />
+     
         <HeaderNav/>
-        <div className="bkgr">
+        
           <MyRoutes/>
-        </div>
+       
         
         <Footer/> 
       </Router>     

@@ -33,3 +33,9 @@
   .nombre p{
     font-size: 0.8rem!important;
   }
+
+  .modal-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

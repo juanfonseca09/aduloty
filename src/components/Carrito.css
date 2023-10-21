@@ -40,7 +40,7 @@
     border-color: rgb(252,146,209); /* Color del borde */
   }
   
-  .carrito .btn-custom:hover {
+ .carrito .btn-custom:hover {
     color: #fff;
     background-color: rgb(227, 109, 178); /* Cambia el color de fondo al pasar el ratón */
     border-color: rgb(227, 109, 178); /* Cambia el color del borde al pasar el ratón */

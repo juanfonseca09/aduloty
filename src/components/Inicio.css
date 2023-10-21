@@ -35,21 +35,25 @@
 }
 
 .envio {
-  height: 4vh;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
+  padding-top: 7vh;
+  padding-bottom: 5vh;
   text-transform: uppercase;
-  background-color: #000;
-}
-.envio {
-  word-wrap: break-word; /* Permite dividir palabras largas entre líneas */
-  overflow: hidden; /* Oculta el texto que desborda el contenedor */
+  text-align: center;
+  justify-content: center;
 }
 
 .envio p {
-  margin: 0; /* Elimina el margen del párrafo */
+  margin: 0;
+  font-weight: bold;
 }
+
+.envio .hov:hover{
+  color: rgb(227, 109, 178);
+  transition: 0.15s;
+}
+
+
+
 
 .espacio{
   padding-top: 7vh;
@@ -164,3 +168,60 @@
 .nombre p{
   font-size: 0.8rem!important;
 }
+
+.custom-carousel {
+  width: 100%;
+  max-height: 830px; /* Cambia este valor según tu preferencia */
+  overflow: hidden;
+}
+
+
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: linear-gradient(45deg, rgba(252, 146, 209, 0.7), rgba(252, 146, 209, 0.7));
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.carousel-text a:hover{
+  color: #fff;
+}
+
+.overlay1 {
+  background-color: rgba(252, 146, 209, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay2 {
+  background-color: rgba(0,0,0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
